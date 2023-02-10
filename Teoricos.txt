@@ -1,0 +1,7 @@
+Internos: modulos que nós desenvolvemos
+Core Modules: modulos que vem com o Node.js
+Externos: modulos que instalamos via npm
+
+
+------
+comando se chama : require / module.exports
