@@ -5,3 +5,5 @@ Externos: modulos que instalamos via npm
 
 ------
 comando se chama : require / module.exports
+
+usando modulos externos, como por exemplo o minimalist tem que colocar o -- para ele ver que aquilo é uma variavel
