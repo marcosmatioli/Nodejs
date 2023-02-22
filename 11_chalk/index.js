@@ -1,9 +1,10 @@
-import { green, bgRed } from "chalk"
+const chalk = require('chalk')
 
 const nota = 5
 
 if(nota >= 7){
-    console.log(green('Parabens você foi aprovado!'))
+    console.log(chalk.green('Parabens você foi aprovado!'))
 }else{
-    console.log(bgRed('Recuperação'))
+    console.log(chalk.red('Recuperação'))
 }
+//só está funcionando na versão 4.1.2 do chalk
