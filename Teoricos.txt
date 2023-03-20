@@ -1,0 +1,19 @@
+Internos: modulos que nós desenvolvemos
+Core Modules: modulos que vem com o Node.js
+Externos: modulos que instalamos via npm
+
+
+------
+comando se chama : require / module.exports
+
+usando modulos externos, como por exemplo o minimalist tem que colocar o -- para ele ver que aquilo é uma variavel
+
+----------------
+PROBLEMAS DE VERSÕES
+npm install chalk@4.1.2
+npm install inquirer@8.1.2
+-------------------
+http = modulo para criar servidores http
+path = para extrair informações de caminhos... arquivos
+fs = file system, leitura e escrita de arquivos
+url = modulo para trabalhar com endereços e url de sites
