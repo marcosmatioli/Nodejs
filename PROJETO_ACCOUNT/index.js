@@ -165,7 +165,7 @@ function getAccountBalance() {
 
             //verify if account exists
             if (!checkAccount(accountName)) {
-                getAccountBalance()
+               return getAccountBalance()
             }
             const accountData = getAccount(accountName)
 
