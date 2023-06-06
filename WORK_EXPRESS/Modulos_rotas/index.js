@@ -1,12 +1,12 @@
 const express = require('express')
-const router = express.Router
+const router = express.Router()
 
 const app = express()
 const port = 3000 // variavel de ambiente
 
 const path = require('path')
 
-const userRouter = require('/users')
+const userRouter = require('./users')
 
 //ler o body
 app.use(
@@ -16,7 +16,7 @@ app.use(
 )
 app.use(express.json())
 
-const basePath = path.join(__dirname, 'templates') // basepath
+const basePath = path.join(__dirname, '../templates') // basepath
 
 app.use('/users', userRouter)
 
